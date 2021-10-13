@@ -1,0 +1,1013 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#84C182"
+    tools:context=".europeanBlackjack">
+
+    <LinearLayout
+        android:id="@+id/eulinearLayout"
+        android:layout_width="359dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/eudealerOne"
+            android:layout_width="70dp"
+            android:layout_height="126dp"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginTop="-31dp"
+            android:background="#FAF7F7"
+            android:foregroundGravity="top"
+            android:hapticFeedbackEnabled="false"
+            android:textColor="#FF0000"
+            android:textSize="110sp" />
+
+        <TextView
+            android:id="@+id/eutextView11"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/eudealerTwo"
+            android:layout_width="70dp"
+            android:layout_height="126dp"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginTop="-31dp"
+            android:background="#FAF7F7"
+            android:foregroundGravity="top"
+            android:hapticFeedbackEnabled="false"
+            android:textColor="#FF0000"
+            android:textSize="110sp" />
+
+        <TextView
+            android:id="@+id/eutextView14"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/eudealerThree"
+            android:layout_width="70dp"
+            android:layout_height="126dp"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginTop="-31dp"
+            android:background="#FAF7F7"
+            android:foregroundGravity="top"
+            android:hapticFeedbackEnabled="false"
+            android:textColor="#FF0000"
+            android:textSize="110sp" />
+
+        <TextView
+            android:id="@+id/eutextView15"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/eudealerFour"
+            android:layout_width="70dp"
+            android:layout_height="126dp"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginTop="-31dp"
+            android:background="#FAF7F7"
+            android:foregroundGravity="top"
+            android:hapticFeedbackEnabled="false"
+            android:textColor="#FF0000"
+            android:textSize="110sp" />
+
+        <TextView
+            android:id="@+id/eutextView16"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/eudealerFive"
+            android:layout_width="70dp"
+            android:layout_height="126dp"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginTop="-31dp"
+            android:background="#FAF7F7"
+            android:foregroundGravity="top"
+            android:hapticFeedbackEnabled="false"
+            android:textColor="#FF0000"
+            android:textSize="110sp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/eudealerDown"
+        android:layout_width="70dp"
+        android:layout_height="86dp"
+        android:layout_marginStart="85dp"
+        android:layout_marginTop="16dp"
+        android:background="#FAF7F7"
+        android:foregroundGravity="top"
+        android:hapticFeedbackEnabled="false"
+        android:textColor="#FF0000"
+        android:textSize="110sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/eulinearLayout2"
+        android:layout_width="359dp"
+        android:layout_height="87dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:orientation="horizontal"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eubetTag">
+
+        <TextView
+            android:id="@+id/euplayerOne"
+            android:layout_width="70dp"
+            android:layout_height="126dp"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginTop="-31dp"
+            android:background="#FAF7F7"
+            android:foregroundGravity="top"
+            android:hapticFeedbackEnabled="false"
+            android:textColor="#FF0000"
+            android:textSize="110sp" />
+
+        <TextView
+            android:id="@+id/eutextView88"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/euplayerTwo"
+            android:layout_width="70dp"
+            android:layout_height="126dp"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginTop="-31dp"
+            android:background="#FAF7F7"
+            android:foregroundGravity="top"
+            android:hapticFeedbackEnabled="false"
+            android:textColor="#FF0000"
+            android:textSize="110sp" />
+
+        <TextView
+            android:id="@+id/eutextView89"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/euplayerThree"
+            android:layout_width="70dp"
+            android:layout_height="126dp"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginTop="-31dp"
+            android:background="#FAF7F7"
+            android:foregroundGravity="top"
+            android:hapticFeedbackEnabled="false"
+            android:textColor="#FF0000"
+            android:textSize="110sp" />
+
+        <TextView
+            android:id="@+id/eutextView90"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/euplayerFour"
+            android:layout_width="70dp"
+            android:layout_height="126dp"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginTop="-31dp"
+            android:background="#FAF7F7"
+            android:foregroundGravity="top"
+            android:hapticFeedbackEnabled="false"
+            android:textColor="#FF0000"
+            android:textSize="110sp" />
+
+        <TextView
+            android:id="@+id/eutextView91"
+            android:layout_width="2dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:text="TextView" />
+
+        <TextView
+            android:id="@+id/euplayerFive"
+            android:layout_width="70dp"
+            android:layout_height="126dp"
+            android:layout_marginLeft="-4dp"
+            android:layout_marginTop="-31dp"
+            android:background="#FAF7F7"
+            android:foregroundGravity="top"
+            android:hapticFeedbackEnabled="false"
+            android:textColor="#FF0000"
+            android:textSize="110sp" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/eutextView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="11dp"
+        android:text="Dealer Total:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eulinearLayout" />
+
+    <TextView
+        android:id="@+id/eudealerTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="11dp"
+        android:text="0"
+        app:layout_constraintStart_toEndOf="@+id/eutextView4"
+        app:layout_constraintTop_toBottomOf="@+id/eulinearLayout" />
+
+    <TextView
+        android:id="@+id/eutextView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="Player Total:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eulinearLayout2" />
+
+    <TextView
+        android:id="@+id/euplayerTotal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="12dp"
+        android:text="0"
+        app:layout_constraintStart_toEndOf="@+id/eutextView12"
+        app:layout_constraintTop_toBottomOf="@+id/eulinearLayout2" />
+
+    <TextView
+        android:id="@+id/euresult"
+        android:layout_width="250dp"
+        android:layout_height="51dp"
+        android:layout_marginStart="79dp"
+        android:layout_marginTop="40dp"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/euplayerTotal" />
+
+    <Button
+        android:id="@+id/eustay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="328dp"
+        android:layout_marginBottom="-20dp"
+        android:onClick="pushStayButton"
+        android:text="Stay"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/euchip5000"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/eudeal"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginBottom="4dp"
+        android:onClick="pushDealButton"
+        android:text="Deal"
+        app:layout_constraintBottom_toTopOf="@+id/euhit"
+        app:layout_constraintStart_toEndOf="@+id/euchipTotalDisplay" />
+
+    <Button
+        android:id="@+id/euhit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="328dp"
+        android:layout_marginBottom="4dp"
+        android:onClick="pushHitButton"
+        android:text="Hit"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toTopOf="@+id/eustay"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/euchipTotalTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="28dp"
+        android:text="ChipTotal:"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/euresult" />
+
+    <TextView
+        android:id="@+id/euchipTotalDisplay"
+        android:layout_width="97dp"
+        android:layout_height="24dp"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="28dp"
+        android:text="0"
+        app:layout_constraintStart_toEndOf="@+id/euchipTotalTag"
+        app:layout_constraintTop_toBottomOf="@+id/euresult" />
+
+    <TextView
+        android:id="@+id/eubetTag"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="132dp"
+        android:layout_marginTop="24dp"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eutextView4" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/euchip1"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="-20dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/euchipTotalTag">
+
+        <ImageView
+            android:id="@+id/euc14"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:rotation="90"
+            android:translationZ="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/euc15"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:rotation="90"
+            android:translationZ="1dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/eucbg1"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:onClick="pushChipOne"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/circle"
+            app:tint="#358FD3" />
+
+        <ImageView
+            android:id="@+id/euc12"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/euc13"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="25dp"
+            android:rotationX="180"
+            android:rotationY="180"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <TextView
+            android:id="@+id/euc1"
+            android:layout_width="25dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="46dp"
+            android:layout_marginTop="41dp"
+            android:text="1"
+            android:textColor="#FCE4EC"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/euchip1000"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="260dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/euresult">
+
+        <ImageView
+            android:id="@+id/euc10004"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:rotation="90"
+            android:translationZ="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/euc10005"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:rotation="90"
+            android:translationZ="1dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/eucbg1000"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:onClick="pushChipOneThousand"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/circle"
+            app:tint="#000000" />
+
+        <ImageView
+            android:id="@+id/euc10002"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/euc10003"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="25dp"
+            android:rotationX="180"
+            android:rotationY="180"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <TextView
+            android:id="@+id/euc1000"
+            android:layout_width="40dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="33dp"
+            android:layout_marginTop="41dp"
+            android:text="1000"
+            android:textColor="#FCE4EC"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/euchip25"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="92dp"
+        android:layout_marginTop="-4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/euchipTotalDisplay">
+
+        <ImageView
+            android:id="@+id/euc254"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:rotation="90"
+            android:translationZ="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/euc255"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:rotation="90"
+            android:translationZ="1dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/eucbg25"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:onClick="pushChipTwentyFive"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/circle"
+            app:tint="#2B7C65" />
+
+        <ImageView
+            android:id="@+id/euc252"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/euc253"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="25dp"
+            android:rotationX="180"
+            android:rotationY="180"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <TextView
+            android:id="@+id/euc25"
+            android:layout_width="25dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="41dp"
+            android:text="25"
+            android:textColor="#FCE4EC"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/euchip5"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="36dp"
+        android:layout_marginTop="1dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/euchipTotalTag">
+
+        <ImageView
+            android:id="@+id/euc54"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:rotation="90"
+            android:translationZ="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/euc55"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:rotation="90"
+            android:translationZ="1dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/eucbg5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:onClick="pushChipFive"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/circle"
+            app:tint="#CA8837" />
+
+        <ImageView
+            android:id="@+id/euc52"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/euc53"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="25dp"
+            android:rotationX="180"
+            android:rotationY="180"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <TextView
+            android:id="@+id/euc5"
+            android:layout_width="25dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="42dp"
+            android:layout_marginTop="41dp"
+            android:text=" 5"
+            android:textColor="#FCE4EC"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/euchip5000"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="317dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/euresult">
+
+        <ImageView
+            android:id="@+id/euc50004"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:rotation="90"
+            android:translationZ="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/euc50005"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:rotation="90"
+            android:translationZ="1dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/eucbg5000"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:onClick="pushChipFiveThousand"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/circle"
+            app:tint="#CF56C9" />
+
+        <ImageView
+            android:id="@+id/euc50002"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/euc50003"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="25dp"
+            android:rotationX="180"
+            android:rotationY="180"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <TextView
+            android:id="@+id/euc5000"
+            android:layout_width="40dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="31dp"
+            android:layout_marginTop="41dp"
+            android:text=" 5000"
+            android:textColor="#FCE4EC"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/euchip100"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="-4dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/euchipTotalDisplay">
+
+        <ImageView
+            android:id="@+id/euc1004"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:rotation="90"
+            android:translationZ="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/euc1005"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:rotation="90"
+            android:translationZ="1dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/eucbg100"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:onClick="pushChipOneHundred"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/circle"
+            app:tint="#9637C8" />
+
+        <ImageView
+            android:id="@+id/euc1002"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/euc1003"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="25dp"
+            android:rotationX="180"
+            android:rotationY="180"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <TextView
+            android:id="@+id/euc100"
+            android:layout_width="25dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="41dp"
+            android:text="100"
+            android:textColor="#FCE4EC"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/euchip500"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="204dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/euresult">
+
+        <ImageView
+            android:id="@+id/euimageView4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:rotation="90"
+            android:translationZ="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/euimageView5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:rotation="90"
+            android:translationZ="1dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/eucbg500"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:onClick="pushChipFiveHundred"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/circle"
+            app:tint="#D64949" />
+
+        <ImageView
+            android:id="@+id/euimageView2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/euimageView3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="25dp"
+            android:rotationX="180"
+            android:rotationY="180"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <TextView
+            android:id="@+id/euc500"
+            android:layout_width="26dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="40dp"
+            android:text="500"
+            android:textColor="#FCE4EC"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/eubetChip"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_marginStart="144dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eulinearLayout">
+
+        <ImageView
+            android:id="@+id/eubetChip4"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:rotation="90"
+            android:translationZ="1dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/eubetChip5"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="25dp"
+            android:rotation="90"
+            android:translationZ="1dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/eucbgBetChip"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="25dp"
+            android:onClick="clickOnBet"
+            android:visibility="invisible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/circle"
+            app:tint="#0D4FD3" />
+
+        <ImageView
+            android:id="@+id/eubetChip2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <ImageView
+            android:id="@+id/eubetChip3"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginEnd="25dp"
+            android:rotationX="180"
+            android:rotationY="180"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/code"
+            app:tint="#84C182" />
+
+        <TextView
+            android:id="@+id/eubetChipText"
+            android:layout_width="26dp"
+            android:layout_height="18dp"
+            android:layout_marginStart="38dp"
+            android:layout_marginTop="40dp"
+            android:textColor="#FCE4EC"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/euplayerBet"
+        android:layout_width="118dp"
+        android:layout_height="36dp"
+        android:layout_marginStart="-25dp"
+        android:layout_marginTop="50dp"
+        android:text="0"
+        android:textSize="30sp"
+        android:visibility="invisible"
+        app:layout_constraintStart_toEndOf="@+id/eubetChip"
+        app:layout_constraintTop_toBottomOf="@+id/eulinearLayout" />
+
+    <TextView
+        android:id="@+id/eutextView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="4dp"
+        android:text="Blackjack Pays 3 to 2"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eulinearLayout" />
+
+    <TextView
+        android:id="@+id/eutextView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="116dp"
+        android:layout_marginTop="20dp"
+        android:text="Dealer must stand on all 17's"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/eulinearLayout" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

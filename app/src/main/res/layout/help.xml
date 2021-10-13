@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/americanBlackjack"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".help">
+
+    <FrameLayout
+        android:id="@+id/frameLayout"
+        android:layout_width="110dp"
+        android:layout_height="729dp"
+        android:layout_marginEnd="300dp"
+        android:background="#C5C5C5"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/blackjack"
+            android:layout_width="95dp"
+            android:layout_height="38dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:minHeight="48dp"
+            android:onClick="textDisplayBlackjack"
+            android:text="Blackjack" />
+
+        <TextView
+            android:id="@+id/usBlackjack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="70dp"
+            android:layout_marginLeft="20dp"
+            android:onClick="textDisplayAmericanBlackjack"
+            android:text="American Blackjack" />
+
+        <TextView
+            android:id="@+id/euBlackjack"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="textDisplayEuropeanBlackjack"
+            android:layout_marginTop="120dp"
+            android:layout_marginLeft="20dp"
+            android:text="European Blackjack" />
+
+        <TextView
+            android:id="@+id/prefs"
+            android:layout_width="97dp"
+            android:layout_height="32dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginLeft="20dp"
+            android:onClick="textDisplayPreferences"
+            android:text="Preferences" />
+
+        <TextView
+            android:id="@+id/addChips"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="220dp"
+            android:onClick="textDisplayAddChips"
+            android:text="Add Chips" />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/info"
+        android:layout_width="291dp"
+        android:layout_height="394dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toEndOf="@+id/frameLayout"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.048" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
